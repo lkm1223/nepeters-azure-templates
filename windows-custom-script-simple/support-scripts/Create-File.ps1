@@ -8,5 +8,5 @@ if (!(Test-Path $log)) {
     Add-Content -Value "NEW LOG: Azure PowerShell Endpoint - $date" -Path $log
     }
 else {
-    Add-Content -Value "EXSISITNG LOG: Azure PowerShell Endpoint - $date" -Path $log
+    Add-Content -Value "EXSISITNG LOG: Azure PowerShell Endpoint - $date - $lkm" -Path $log
 }
