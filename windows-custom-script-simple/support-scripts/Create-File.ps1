@@ -1,3 +1,6 @@
+Get-PnpDevice -Class FloppyDisk | Disable-PnpDevice -Confirm:$false
+Get-PnpDevice -Class CDROM | Disable-PnpDevice -Confirm:$false
+
 $folder = "c:\temp"
 $log = "c:\temp\AzureLog.txt"
 $date = get-date
